@@ -11,8 +11,8 @@ import { StateService } from './state.service';
 
 @Injectable()
 export class AuthorizationService {
-  private clientId: string = '<SKY_APPLICATION_CLIENT_ID>';
-  private subscriptionKey: string = '<SKY_API_SUBSCRIPTION_KEY>';
+  private clientId: string = '0e211aed-61c7-4efd-9462-a1e3d44c0c27';
+  private subscriptionKey: string = '431ac06f235647e1ad5b15c2e04037c1';
   private redirectUri: string = 'http://localhost:5000/auth/callback';
 
   constructor(
