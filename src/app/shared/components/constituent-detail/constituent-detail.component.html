@@ -5,7 +5,7 @@
     <sky-fluid-grid *ngIf="hasAccessToken && !!constituent">
       <sky-row>
         <sky-column [screenMedium]="5">
-          <span class="sky-font-heading-2">{{ constituent.title }} {{ constituent.name }}</span>
+          <span class="sky-font-heading-2">{{ constituent.title }} {{constituent.first_name}} {{ constituent.last_name }}</span>
           <sky-description-list mode="horizontal" class="sky-margin-stacked-sm">
             <sky-description-list-content>
               <sky-description-list-term> Income </sky-description-list-term>

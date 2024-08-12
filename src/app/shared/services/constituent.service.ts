@@ -13,7 +13,7 @@ export class ConstituentService {
 
   public getConstituent(id: string): Observable<Constituent> {
     return this.httpClient.get<Constituent>(
-      `https://api.sky.blackbaud.com/constituent/v1/constituents/${id}`,
+      `https://api.sky.blackbaud.com/crm-conmg/individuals/${id}`,
       {
         headers: this.authorizationService.skyApiHeaders,
       }

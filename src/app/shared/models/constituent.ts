@@ -6,8 +6,8 @@ export interface Constituent {
   id: string;
   type: string;
   lookup_id: string;
-  first: string;
-  last: string;
+  first_name: string;
+  last_name: string;
   name: string;
   age: number;
   gender: string;

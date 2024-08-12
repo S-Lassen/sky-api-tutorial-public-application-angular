@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
   public error: string | null = null;
 
   // You may need to change this to a valid constituent ID in your environment
-  private constituentId: string = '280';
+  private constituentId: string = 'f2ccd331-8737-4680-94e4-cdb85ce0a2b8';
 
   constructor(
     private authorizationService: AuthorizationService,
